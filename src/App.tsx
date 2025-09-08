@@ -10,10 +10,13 @@ import RegisterPage from "./pages/Register";
 import AdminDashboard from "./pages/AdminPages/Admin-Dashboard";
 import OurProjects from "./pages/AdminPages/Admin-Project";
 import OurContactus from "./pages/AdminPages/Admin-Contacts";
+<<<<<<< HEAD
 import { QuoteModalProvider } from "./components/QuoteModalContext";
 import Popupform from "./components/popupform";
 import  SingleProjectDetails from './components/ProjectPage'
 import { Import } from "lucide-react";
+=======
+>>>>>>> 435135ac885128ebaa49269f3ec91263c3a2279d
 
 const queryClient = new QueryClient();
 
@@ -30,12 +33,16 @@ function ProtectedRoute({ children }) {
 
 const App = () => (
   <QueryClientProvider client={queryClient}>
+<<<<<<< HEAD
     <QuoteModalProvider>
 
     <TooltipProvider>
 
       <Popupform/>
 
+=======
+    <TooltipProvider>
+>>>>>>> 435135ac885128ebaa49269f3ec91263c3a2279d
       <Toaster />
       <Sonner />
       <BrowserRouter>
@@ -54,15 +61,21 @@ const App = () => (
             />
             <Route path="/ourprojects" element={<OurProjects/>} />
              <Route path="/ourcontacts" element={<OurContactus/>}/>
+<<<<<<< HEAD
              <Route path="/${id}" element={SingleProjectDetails} ></Route>
+=======
+>>>>>>> 435135ac885128ebaa49269f3ec91263c3a2279d
 
               
     
         </Routes>
       </BrowserRouter>
     </TooltipProvider>
+<<<<<<< HEAD
   </QuoteModalProvider>
 
+=======
+>>>>>>> 435135ac885128ebaa49269f3ec91263c3a2279d
   </QueryClientProvider>
 );
 

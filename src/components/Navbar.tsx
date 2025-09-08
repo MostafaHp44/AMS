@@ -4,12 +4,18 @@ import React, { useState, useEffect } from "react";
 import { cn } from "@/lib/utils";
 import { Menu, X } from "lucide-react";
 import "../i18"  
+<<<<<<< HEAD
 import { useQuoteModal } from "./QuoteModalContext";
 
 const Navbar: React.FC = () => {
   const { t, i18n } = useTranslation();
     const { open } = useQuoteModal();
 
+=======
+
+const Navbar: React.FC = () => {
+  const { t, i18n } = useTranslation();
+>>>>>>> 435135ac885128ebaa49269f3ec91263c3a2279d
 
   const changeLang = async () => {
     const newLang = i18n.language.startsWith("ar") ? "en" : "ar";
@@ -97,8 +103,11 @@ const Navbar: React.FC = () => {
               padding: "10px",
               borderRadius: "25px",
             }}
+<<<<<<< HEAD
             onClick={open}
 
+=======
+>>>>>>> 435135ac885128ebaa49269f3ec91263c3a2279d
           >
             {t("navbar.requestQuote") || "Request a Quote"}
           </button>

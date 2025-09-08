@@ -31,7 +31,15 @@ i18n
               startproject : " Start Your Project Now ", 
               portfolio : " View Our Project ",
               tech:" Tech Used " ,
+<<<<<<< HEAD
               leading:"Make your organization digital ",
+=======
+              leading:"Make your organization digital "
+            
+
+
+            
+>>>>>>> 435135ac885128ebaa49269f3ec91263c3a2279d
           } ,
 
           Services:
@@ -88,9 +96,13 @@ i18n
           {
             headnewsletter:" Newsletter " ,
             subscribe: " Subscribe now to the Technical Newsletter" ,
+<<<<<<< HEAD
             titlesubscribe:" Learn about all the latest technologies and the latest offers and activities.",
             mail: "Your Mail",
             btnnew:"Subscribe Now "
+=======
+            titlesubscribe:" Learn about all the latest technologies and the latest offers and activities."
+>>>>>>> 435135ac885128ebaa49269f3ec91263c3a2279d
           },
 
           contactus:{
@@ -112,6 +124,7 @@ i18n
             username:"Youe Name  " ,
             mail:"Your Mail " ,
             company:" Company ( OPtional  )" ,
+<<<<<<< HEAD
             btnform:" Submit  ",
             validationRequired: "Please fill in all required fields",
             submitSuccess: "Request submitted successfully!",
@@ -124,6 +137,10 @@ i18n
             portfolio_examples: "Portfolio / Examples",
             }
           }
+=======
+            btnform:" Submit  "
+
+>>>>>>> 435135ac885128ebaa49269f3ec91263c3a2279d
 
           },
 
@@ -146,6 +163,7 @@ i18n
 
 
           },
+<<<<<<< HEAD
           footer:{
             getin: "Get Connect " , 
             dontmiss:"Sbscribe Now and Don't Miss Best Offer" , 
@@ -158,6 +176,8 @@ i18n
             privacy:"Privacy", 
             social:"Follow On Socail Media" , 
           }
+=======
+>>>>>>> 435135ac885128ebaa49269f3ec91263c3a2279d
 
 
           
@@ -292,6 +312,7 @@ i18n
             username:"اسمك " ,
             mail:"بريدك الالكتروني " ,
             company:"اسم شركتك (اختياري )" ,
+<<<<<<< HEAD
             btnform:" تقديم عرض ",
             validationRequired: "من فضلك املئ جميع الحقول ",
             submitSuccess: "تم تسجيل طلبك بنجاح !",
@@ -304,6 +325,9 @@ i18n
             portfolio_examples: "واجهات شخصية ",
             }
           }
+=======
+            btnform:" تقديم عرض "
+>>>>>>> 435135ac885128ebaa49269f3ec91263c3a2279d
 
 
           },

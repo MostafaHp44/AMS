@@ -158,12 +158,20 @@ const OurPorject = () => {
 
                           <div className="flex flex-col sm:flex-row gap-4">
                             <a
+<<<<<<< HEAD
                               href=""
+=======
+                              href="#get-access"
+>>>>>>> 435135ac885128ebaa49269f3ec91263c3a2279d
                               className="flex items-center justify-center group w-full sm:w-auto text-center
                                          rounded-full border border-white bg-white text-black
                                          text-sm font-medium px-5 py-3 shadow hover:shadow-lg transition"
                             >
+<<<<<<< HEAD
                               {t("project.btn")}
+=======
+                              {t("project.btnproject")}
+>>>>>>> 435135ac885128ebaa49269f3ec91263c3a2279d
                               <ArrowRight className="ml-2 w-4 h-4 transition-transform group-hover:translate-x-1" />
                             </a>
                           </div>
